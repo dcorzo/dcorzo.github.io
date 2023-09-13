@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Haven District: Review Us</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+
+    <!-- Navigation Tab -->
+
+        <div class="nav">
+            <a href="index.html">home</a> | <a href="page2.html">schedule</a> | <a href="page3.html">review</a> | <a href="page4.html">visit</a>
+        </div>
+
+        <!-- Logo -->
+
+        <figure>    
+            <img class="logo" src="images/Haven District.png" height="60" width="60"/>
+            <figcaption class="logo_cap"><b>Haven District 2023</b></figcaption>
+        </figure> 
+
+    </header>
+
+    <!-- Title -->
+
+    <h1>Leave a Review for Our Article!</h1>
+
+    <!-- Review Form -->
+
+    <form action="http://www.example.com/review.php" method="get">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>First Name: <input type="text" name="first_name" size="32" maxlength="100"></label><br><br>
+            <label>Last Name: <input type="text" name="last_name" size="32" maxlength="100"></label><br><br>
+            <label>Email: <input type="email" name="email" size="37" maxlength="100"></label><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Review Us:</legend>
+            <p>
+                <label for="hear-about">How did you hear about us?</label>
+                <select name="referrer" id="hear-about">
+                    <option value="search Engines">Search Engines</option>
+                    <option value="referral">Referral</option>
+                    <option value="ad">Ad</option>
+                    <option value="social media">Social Media</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>
+                From 1-5, <em>1 being poor; 5 being excellent</em>, what rating would you give our article's date ideas?<br><br>
+                <label><input type="radio" name="rating" value="1"> 1</label>
+                <label><input type="radio" name="rating" value="2"> 2</label>
+                <label><input type="radio" name="rating" value="3"> 3</label>
+                <label><input type="radio" name="rating" value="4"> 4</label>
+                <label><input type="radio" name="rating" value="5"> 5</label>
+            </p>
+            <p>
+                Which was your <b>favorite</b> date idea?<br><br>
+                <label><input type="radio" name="rating" value="movie">Movie Night with Snacks</label><br>
+                <label><input type="radio" name="rating" value="picnic">Park Picnic with Painting Activity</label><br>
+                <label><input type="radio" name="rating" value="baking">Bake Your Favorite Treats</label><br>
+                <label><input type="radio" name="rating" value="downtown">Visit a Downtown New to the Both of You</label>
+            </p>
+            <p>
+                <label for="comments">Any comments or recommendations for future articles are welcomed here:</label><br>
+                <textarea rows="5" cols="40" id="comments"></textarea>
+            </p>
+            <label><input type="checkbox" name="subscribe" checked="checked"> Subscribe to Haven District's Newsletter</label><br><br>
+            <input type="submit" value="Submit review"> <!-- Submits to example domain -->
+
+        </fieldset>
+    </form>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="footer_text">
+            <p><b>Haven District 2023 | Made By Dereck Corzo | <a href="mailto:dcorzo@andrew.cmu.edu" target="_blank">
+                dcorzo@andrew.cmu.edu</a></b></p>
+        </div>
+        <figure> 
+            <img src="images/Haven District.png" height="30" width="30"/>
+        </figure> 
+    </div>
+
+</body>
+</html> 

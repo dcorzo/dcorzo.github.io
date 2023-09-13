@@ -1,0 +1,129 @@
+/* Stylesheet is organized by alphabetical order, first introducing
+body controller, following by CSS Selectors, and finally CSS Classes */
+
+
+/* Body Controller */
+body {
+    background-image: url("../images/pexels-min-an-916152.jpg");
+    background-position: center;
+    background-size: 2200px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;}
+
+/* (A-Z) Selectors */
+
+a {
+    text-decoration: none}
+    
+a:visited {
+    color:rgb(95, 96, 175)}
+
+figcaption {
+    color: rgb(0, 0, 0);
+    margin-left: 425px;
+    padding: 4px;}
+
+form {
+    background-color: rgba(231, 230, 230, 0.902);
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 350px;}
+
+h1 {
+    background-color: rgba(168, 212, 170, 0.348);
+    border: 2px solid black;
+    border-radius: 100px;
+    color: white;
+    display: block;
+    margin-top: 60px;
+    padding: 8px;
+    text-align: center;}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+img {
+    border: 2px solid rgba(0, 0, 0, 0.265);
+    border-radius: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;}
+
+th {
+    color:rgb(72, 110, 76)}
+
+/* (A-Z) Classes */
+
+.article {
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px;
+    min-height: 0em;
+    min-width: 0em;
+    max-height: 25em;
+    max-width: 100em;
+    overflow: scroll;
+    padding: 10px;}
+
+.footer_text {
+    background-color:rgba(231, 230, 230, 0.902);
+    font-family: courier;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;}
+
+.intro {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px}
+
+.logo {
+    float: right;}
+    
+.logo_cap {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+    padding-right: 70px;
+    text-align: right;}
+
+.nav {
+    background-color:rgba(255, 255, 255, 0.635);
+    border: 3px dotted white;
+    border-radius: 160px;
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    height: 22px;
+    margin-left: 516px;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;}
+
+.pictures {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    height: 150px;
+    width: 150px;}
+
+.picture line {
+    color: rgb(0, 0, 0); 
+    display: block;
+    height: 154px;
+    margin-block-end: 16px;
+    margin-block-start: 16px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    width: 1424px;}
+
+.table_char {
+    background-color: rgba(255, 255, 255, 0.752);
+    border: 3px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;}
